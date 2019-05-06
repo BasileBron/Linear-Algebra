@@ -1,27 +1,31 @@
 # Linear-Algebra
 ![Linear Algebra](https://raw.githubusercontent.com/BasileBron/Linear-Algebra/master/img/banner_github.jpg)
-Linear Algebra is a way to represent Linear equation using vectors.
+
+This repository was made during my personal preparation for the "Computer Science and Artificial Intelligence BSc (Hons)" at the university of Sussex. **Linear Algebra** being one of the **main pillar** of **machine learning** I had to get a better grasp than I had learned in school.
+
+Linear Algebra is a branch of mathematics that deals with linear equations and linear functions which are represented through **matrices** and **vectors**. In simpler words, LA helps you understand geometric terms such as planes, in higher dimensions, and perform mathematical operations on them. By definition, algebra deals primarily with scalars (one-dimensional entities), but LA has vectors and matrices (entities which possess two or more dimensional components) to deal with linear equations and functions.
 
 
 ## Vector
-vectors are a combination of two value x and y in a 2 Dimension space.
-or a combination of tree value x ,y and z in a 3 Dimensional space.
+vectors are a combination of two value **x and y** in a 2 Dimension space.
+or a combination of tree value **x ,y and z** in a 3 Dimensional space.
 
 ### Notation
-#### Magnitude
-The Magnitude is is lenght of a vector
-i.g the "hypotenuse" of a triangle that a 2d Vector would form is the magnitude
-#### Unit Vector / Identity Vector
-Unit vectors are vectors whose magnitude is exactly 1 unit. They are very useful for different reasons. Specifically, the unit vectors [0,1] and [1,0] can form together any other vector.
 
-i.e the unit û of the vector (a,b) will be ![Magnitude](https://raw.githubusercontent.com/BasileBron/Linear-Algebra/master/img/magnitude.png)
+#### Magnitude
+The **Magnitude is the lenght** of a vector
+**i.g** the "hypotenuse" of a triangle that a 2d Vector would form is the magnitude.
+
+#### Unit Vector / Identity Vector
+Unit vectors are vectors whose magnitude is exactly 1 unit. They are very useful for different reasons. Specifically, the unit vectors [0,1] and [1,0] can **form** together **any other vector**.
+
+**i.e** the unit û of the vector (a,b) will be ![Magnitude](https://raw.githubusercontent.com/BasileBron/Linear-Algebra/master/img/magnitude.png)
 
 basically just divide each number by the magnitude of the vector.
-i.g the unit û of the vector (3,4) will be (⅗,⅘)
+**i.g** the unit û of the vector (3,4) will be (⅗,⅘)
 
 #### Scalar
-
-A scalar is a value that will scale the vector by multiplying it.
+A scalar is a value that will **scale** the vector by multiplying it.
 
 ### Basic Concept
 #### Linear dependency
@@ -44,13 +48,23 @@ Two vetor that are on the same line.
 **i.e** Have the same direction.
 #### vector multiplication
 ##### Cross product
+![dot product](https://raw.githubusercontent.com/BasileBron/Linear-Algebra/master/img/cross_product_formula.PNG)
+
 The cross product tell you how much **perpendicular** the vectors are.
-![hand corss product](https://raw.githubusercontent.com/BasileBron/Linear-Algebra/master/img/hand_cross_product.png)
 
-![corss product](https://raw.githubusercontent.com/BasileBron/Linear-Algebra/master/img/cross_product.gif)
+![hand cross product](https://raw.githubusercontent.com/BasileBron/Linear-Algebra/master/img/hand_cross_product.png)![cross product](https://raw.githubusercontent.com/BasileBron/Linear-Algebra/master/img/cross_product.gif)
 
-##### dot product / scalar product
+[video explanation](https://www.youtube.com/watch?v=eu6i7WJeinw&t)
+##### Dot product / Scalar product / Inner Product
+![dot product](https://raw.githubusercontent.com/BasileBron/Linear-Algebra/master/img/dot_product_equation.PNG)
 The dot product tell you how much **parallel** the vectors are.
+or the "degree of correlation" between two vectors
+
+![dot product](https://raw.githubusercontent.com/BasileBron/Linear-Algebra/master/img/dot_product.PNG)
+
+[video explanation](https://www.youtube.com/watch?v=LyGKycYT2v0&t)
+
+
 ### Vector flashcard
 ___________________________________________________________
 ## Matrix
@@ -59,6 +73,7 @@ ___________________________________________________________
 Maximum number of vector needed to represent any point in the space of the matrix
 “basically number of dimension“
 or more precisely the number of linearly independent vector
+
 #### Basis of a matrix
 
 #### Span of a matrix
