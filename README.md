@@ -19,7 +19,8 @@ The **Magnitude is the lenght** of a vector
 #### Unit Vector / Identity Vector
 Unit vectors are vectors whose magnitude is exactly 1 unit. They are very useful for different reasons. Specifically, the unit vectors [0,1] and [1,0] can **form** together **any other vector**.
 
-**i.e** the unit û of the vector (a,b) will be ![Magnitude](https://raw.githubusercontent.com/BasileBron/Linear-Algebra/master/img/magnitude.png)
+**i.e** the unit û of the vector (a,b) will be
+ ![Magnitude](/img/magnitude.PNG)
 
 basically just divide each number by the magnitude of the vector.
 **i.g** the unit û of the vector (3,4) will be (⅗,⅘)
@@ -68,11 +69,15 @@ or the "degree of correlation" between two vectors
 ### Vector flashcard
 ___________________________________________________________
 ## Matrix
+A matrix  is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. For example, the dimension of the matrix below is 2 × 3 (read "two by three"), because there are two rows and three columns: ![Matrix](img/README-af1e3ac6.png)
+
+
 ### Notation
+
 #### Rank of a matrix
 Maximum number of vector needed to represent any point in the space of the matrix
 “basically number of dimension“
-or more precisely the number of linearly independent vector
+or more precisely the number of linearly independent vector.
 
 #### Basis of a matrix
 
@@ -82,6 +87,14 @@ or more precisely the number of linearly independent vector
 #### Matrix multiplication
 
 #### gauss elimination
+Gauss elimination is quite simple. your goal is to end up with a echelon Form by additioning or substracting row between them.
+
+##### Row/column echelon and reduce row echelon Form
+![row echelon](img/README-83263fae.png)
+
+1) Basically a matrix is in echelon form if it has the shape resulting from a Gaussian elimination. Row echelon form means that Gaussian elimination has operated on the rows
+
+2) column echelon form means that Gaussian elimination has operated on the columns. In other words, a matrix is in column echelon form if its transpose is in row echelon form.
 #### development of Laplace
 #### method Cramer
 
