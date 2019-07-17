@@ -65,12 +65,10 @@ or the "degree of correlation" between two vectors
 
 [video explanation](https://www.youtube.com/watch?v=LyGKycYT2v0&t)
 
-
 ### Vector flashcard
 ___________________________________________________________
 ## Matrix
 A matrix  is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. For example, the dimension of the matrix below is 2 × 3 (read "two by three"), because there are two rows and three columns: ![Matrix](img/README-af1e3ac6.png)
-
 
 ### Notation
 
@@ -80,12 +78,17 @@ Maximum number of vector needed to represent any point in the space of the matri
 or more precisely the number of linearly independent vector.
 
 #### Basis of a matrix
+basis are î and ^j
 
-#### Span of a matrix
+#### Span of a Vector/matrix
+The "**span**" of **v** and **w** is the set of **all their linear combinations**.
 
+``av + bv``
+
+Let a and b vary over all real number
 ### Method and equation
 #### Matrix multiplication
-
+![](img/README-c5faee7e.gif)
 #### gauss elimination
 Gauss elimination is quite simple. your goal is to end up with a echelon Form by additioning or substracting row between them.
 
@@ -95,8 +98,16 @@ Gauss elimination is quite simple. your goal is to end up with a echelon Form by
 1) Basically a matrix is in echelon form if it has the shape resulting from a Gaussian elimination. Row echelon form means that Gaussian elimination has operated on the rows
 
 2) column echelon form means that Gaussian elimination has operated on the columns. In other words, a matrix is in column echelon form if its transpose is in row echelon form.
+
 #### development of Laplace
+
+1- select a line or column that has the most zero because it reduce the length of the calculus
+
+
 #### method Cramer
+#### Null space
+
+
 
 ## Acknowledgement
 
