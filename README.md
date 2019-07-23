@@ -31,7 +31,7 @@ A scalar is a value that will **scale** the vector by multiplying it.
 ### Basic Concept
 #### Linear dependency
 ##### Linear dependent
-A linearly dependent vector can be a combination of other vector of the set.
+A linearly dependent vector can be a combination of other vector of the set. simply meaning that these vector are on the same "line/direction".
 
 **i.g** the set of vectors **[1,2] [3,2] [2,1]** is linearly dependent because we have 3 vector in two dimension and none of them are collinear or null. which means that you can already represent any point in the two dimension by using a combination of only two vector of this set.
 
@@ -65,8 +65,6 @@ or the "degree of correlation" between two vectors
 
 [video explanation](https://www.youtube.com/watch?v=LyGKycYT2v0&t)
 
-### Vector flashcard
-___________________________________________________________
 ## Matrix
 A matrix  is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. For example, the dimension of the matrix below is 2 × 3 (read "two by three"), because there are two rows and three columns: ![Matrix](img/README-af1e3ac6.png)
 
@@ -76,9 +74,11 @@ A matrix  is a rectangular array of numbers, symbols, or expressions, arranged i
 Maximum number of vector needed to represent any point in the space of the matrix
 “basically number of dimension“
 or more precisely the number of linearly independent vector.
+[wikipedia](https://en.wikipedia.org/wiki/Rank_(linear_algebra))
 
 #### Basis of a matrix
 basis are î and ^j
+[wikipedia](https://en.wikipedia.org/wiki/Basis_(linear_algebra))
 
 #### Span of a Vector/matrix
 The "**span**" of **v** and **w** is the set of **all their linear combinations**.
@@ -90,7 +90,10 @@ Let a and b vary over all real number
 #### Matrix multiplication
 ![](img/README-c5faee7e.gif)
 #### gauss elimination
-Gauss elimination is quite simple. your goal is to end up with a echelon Form by additioning or substracting row between them.
+Gauss elimination is quite simple. your goal is to end up with a echelon Form by adding or substracting row between them.
+
+[wikipedia](https://en.wikipedia.org/wiki/Gaussian_elimination)
+
 
 ##### Row/column echelon and reduce row echelon Form
 ![row echelon](img/README-83263fae.png)
@@ -104,10 +107,22 @@ Gauss elimination is quite simple. your goal is to end up with a echelon Form by
 1- select a line or column that has the most zero because it reduce the length of the calculus
 
 
-#### method Cramer
-#### Null space
+#### Cramer rule
 
+![camer rule](img/README-8a071fbe.png)
 
+[wikipedia](https://en.wikipedia.org/wiki/Cramer%27s_rule)
+
+#### Null Space
+What is it ?
+
+If A is your matrix, the null-space is simply put, the set of all vectors v such that A⋅v=0. It's good to think of the matrix as a linear transformation; if you let h(v)=A⋅v, then the null-space is again the set of all vectors that are sent to the zero vector by h. Think of this as the set of vectors that lose their identity as h is applied to them.
+**i.g** The range of A represents the area of the room that can be illuminated. The null space of A represents the power we can apply to lamps that don't change the illumination in the room at all.
+
+[Source](https://math.stackexchange.com/questions/21131/physical-meaning-of-the-null-space-of-a-matrix)
+
+How to calculate the null space of a matrix.
+[Khan Aademy video](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/null-column-space/v/null-space-2-calculating-the-null-space-of-a-matrix?modal=1)
 
 ## Acknowledgement
 
@@ -116,3 +131,7 @@ You make the education system look like an arrogant clown that isn't funny (and 
 
 I couldn't have done this without you.
 A thousand thanks!
+
+___________________________________________________________
+
+### Vector flashcard
