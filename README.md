@@ -37,6 +37,8 @@ A linearly dependent vector can be a combination of other vector of the set. sim
 **i.e** You can prove this mathematically by scaling each of this vector by a constant and if one of the content is not equals to zero then the set is linearly dependent.
 (c1*[1,2]+c2[3,2]+c3[2,1])
 
+there is also another way to do it **i.g** if you can make one vector of the set by combination of the two other, then the vector is linearly dependent and can be deleted of the set without affecting the span of the vectors
+
 [example on linearly dependence](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-independence/v/more-on-linear-independence)
 
 ##### Linear independent
@@ -124,10 +126,22 @@ If A is your matrix, the null-space is simply put, the set of all vectors v such
 
 How to calculate the null space of a matrix.
 [Khan Academy video](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/null-column-space/v/null-space-2-calculating-the-null-space-of-a-matrix?modal=1)
+
+How to find it? Do a reduced row echelon form of your matrix and multiply the result with the respecting x^n for each number.
+the pivot columns are non-linear, and are the basis.
+
+
+``N(A)=N(rref(A))= Span(v1,v2,vn)``
+
+**i.e** So the nullity of a matrix is essentially the number of non-pivot columns in the reduced row echelon form of that matrix.
+
+[Khan Academy video](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/null-column-space/v/dimension-of-the-null-space-or-nullity?modal=1)
+
 #### left null space
 It is the transpose of the null Space
 
 #### column space of a matrix
+
 ![column space of a matrix](img/README-a9b6c689.png)
 
 [Khan Academy video](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/null-column-space/v/visualizing-a-column-space-as-a-plane-in-r3?modal=1)
