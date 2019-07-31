@@ -29,7 +29,7 @@ A scalar is a value that will **scale** the vector by multiplying it.
 
 ### Basic Concept
 #### Linear dependency
-##### Linear dependent
+##### Linearly dependent
 A linearly dependent vector can be a combination of other vector of the set. simply meaning that these vector are on the same "line/direction".
 
 **i.g** the set of vectors **[1,2] [3,2] [2,1]** is linearly dependent because we have 3 vector in two dimension and none of them are collinear or null. which means that you can already represent any point in the two dimension by using a combination of only two vector of this set.
@@ -136,6 +136,7 @@ the pivot columns are non-linear, and are the basis.
 **i.e** So the nullity of a matrix is essentially the number of non-pivot columns in the reduced row echelon form of that matrix.
 
 [Khan Academy video](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/null-column-space/v/dimension-of-the-null-space-or-nullity?modal=1)
+[Jeffrey Chasnov video](https://www.youtube.com/watch?v=C8zOd07U3l8&list=PLkZjai-2Jcxlg-Z1roB0pUwFU-P58tvOx&index=32)
 
 #### left null space
 It is the transpose of the null Space
@@ -151,7 +152,7 @@ It is the transpose of the column Space.
 
 ## Acknowledgement
 
-A huge thank to [khanacademy](https://www.khanacademy.org/) and [3 brown 1 blue](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos).
+A huge thank to [khanacademy](https://www.khanacademy.org/) [3 brown 1 blue](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos) and [Jeffrey Chasnov](https://www.youtube.com/watch?v=FCmH4MqbFGs&list=PLkZjai-2Jcxlg-Z1roB0pUwFU-P58tvOx).
 You make the education system look like an arrogant clown that isn't funny (and you pay 10k a year wasting your time everyday to hear him say that student are lazzy #salt).
 
 I couldn't have done this without you.
